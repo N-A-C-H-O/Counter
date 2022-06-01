@@ -75,7 +75,6 @@ body::before {
     grid-template-areas: "display display display"
                             "increase decrease reset"
                                 "increase decrease reset";
-
 }
 
 input[type="text"] {
@@ -85,8 +84,6 @@ input[type="text"] {
     border-radius: 15px;
     outline: none;
 }
-
-
 
 .btn {
     height: 7em;
@@ -115,7 +112,6 @@ input[type="text"] {
 
 .counter-reset {
     grid-area: reset;
-
 }
 
 
@@ -143,4 +139,3 @@ input[type="text"] {
         transform: rotate(360deg);
     }
 }
-

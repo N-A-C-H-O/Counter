@@ -1,7 +1,5 @@
 let counter = 0;
 
-display.value = counter;
-
 const increaseCounter = () => {
     counter++;
     display.value = counter;
@@ -26,8 +24,10 @@ const resetCounter = () => {
     display.style.color = "black"
 }
 
+display.value = counter;
 
 btnIncrease.addEventListener("click",increaseCounter);
-btnDecrease.addEventListener("click",decreaseCounter);
-btnReset.addEventListener("click",resetCounter);
 
+btnDecrease.addEventListener("click",decreaseCounter);
+
+btnReset.addEventListener("click",resetCounter);
